@@ -10,7 +10,7 @@ theimage.setAttribute('alt', 'image');
 theimage.height = sizeA;
 theimage.width = sizeB;
 if (count<5) {
-    document.getElementById('sentence_container').appendChild(theimage); 
+    document.getElementById('sentence_container').append(theimage); 
    } else {
        alert("effacez les pictos")
    }
