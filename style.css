@@ -1,0 +1,20 @@
+html{
+    display :flex;
+   
+}
+
+#sentence_container{
+    flex: 1 100%;
+}
+
+#picto_container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.picto{
+    width: 300px;
+
+}
