@@ -1,40 +1,39 @@
-html{
-    display :flex;
+html {
+    display: flex;
     width: 100%;
-    margin:auto;
+    margin: auto;
 }
 
-#sentence_container{
-    display:flex;
+#sentence_container {
+    display: flex;
     flex: 1 100%;
-    padding:100px;
+    padding: 100px;
     justify-content: center;
-    flex-wrap: wrap;}
-
-#picto_container{
-    display:flex;
     flex-wrap: wrap;
-    gap:10px;
 }
 
-.picto{
+#picto_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.picto {
     width: 200px;
     margin-bottom: 10px;
 }
 
-#picto_sentence{
-    width:80px;
+#picto_sentence {
+    width: 80px;
     visibility: hidden;
-
 }
 
-#delete_container{
-    display:flex;
+#delete_container {
+    display: flex;
     justify-content: flex-end;
-
 }
 
-#picto_delete{
-    width:80px;
+#picto_delete {
+    width: 80px;
     margin: 0 25px 25px 0;
 }
